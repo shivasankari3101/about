@@ -4,6 +4,7 @@
 	padding: 0px;
 }
 
+
 #slogan{
 	text-align: center;
 	color: #218047;
@@ -17,18 +18,21 @@
 
 #section2{
 	margin: 20px;
+	text-align: center;
 }
 
-#main-content>h1{
-	text-align: center;
-	padding: 15px;
-}
+
 
 @media(min-width: 577px){
    #image_1{
-   	border-top-right-radius: 65%;
-   	border-bottom-right-radius: 65%;
+   	border-top-right-radius: 50%;
+   	border-bottom-right-radius: 50%;   
    }
+   
+   #slogan>i{
+   	font-size: 2em;
+   }
+  
 }
 
 @media(max-width: 576px){
