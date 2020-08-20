@@ -17,8 +17,14 @@ h1{
 
 #slogan{
 	text-align: center;
-	color: #218047;	
+	color: #218047;
+	animation-name: appear;
+	animation-delay: 0s;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
 }
+
+
 
 
 #slogan>h1{
@@ -32,7 +38,7 @@ h1{
 	text-align: center;
 	position: relative;
     animation-name: appear;
-    animation-delay: 0s;
+    animation-delay: 2s;
     animation-duration: 5s;
     animation-iteration-count: 1;
     position: relative;
@@ -45,7 +51,7 @@ h1{
 
 #section2 h1{
 	animation-name: spread;
-	animation-delay: 5s;
+	animation-delay: 7s;
 	animation-duration: 2s;
     animation-iteration-count: 1
 }
