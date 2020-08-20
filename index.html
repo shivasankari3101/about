@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
-<body onscroll="pop();">
+<body onscroll="show();">
 <div class="container-fluid" id="about">
 	<div class="row align-items-center" id="section1">
 		<img  src="images/header.jpg" class="col-sm-8" id="image_1">
@@ -34,6 +34,19 @@
 	
 </div>
 
+<script>
+	if (window.innerHeight<800) {
+		hide();
+	}
+
+	function hide(){
+		document.querySelector("#section2").style.visibility="hidden";
+	}
+
+	function show(){
+		document.querySelector("#section2").style.visibility="visible";
+	}
+</script>
 
 </body>
 </html>
