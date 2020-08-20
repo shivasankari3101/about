@@ -1,3 +1,13 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+h1{
+	font-weight: bolder;
+}
+
+
 #image_1{
 	height: 100%;
 	margin: 0px;
@@ -19,7 +29,19 @@
 #section2{
 	margin: 20px;
 	text-align: center;
+	position: relative;
+    animation-name: appear;
+    animation-delay: 0s;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    position: relative;
 }
+
+@keyframes appear{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
 
 
 
