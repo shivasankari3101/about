@@ -37,6 +37,7 @@ h1{
 	margin: 20px;
 	text-align: center;
 	position: relative;
+	opacity: 0;
     animation-name: appear;
     animation-delay: 2s;
     animation-duration: 5s;
